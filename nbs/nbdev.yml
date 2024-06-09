@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "genad"
+  site-url: "https://iCalculated.github.io/genad"
+  description: "generative advertisements for contractors"
+  repo-branch: main
+  repo-url: "https://github.com/iCalculated/genad"
