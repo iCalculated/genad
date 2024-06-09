@@ -5,4 +5,10 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://iCalculated.github.io',
                 'git_url': 'https://github.com/iCalculated/genad',
                 'lib_path': 'genad'},
-  'syms': {'genad.core': {'genad.core.foo': ('core.html#foo', 'genad/core.py')}}}
+  'syms': { 'genad.core': { 'genad.core.Phrase': ('transcription.html#phrase', 'genad/core.py'),
+                            'genad.core.Transcript': ('transcription.html#transcript', 'genad/core.py'),
+                            'genad.core.Word': ('transcription.html#word', 'genad/core.py'),
+                            'genad.core.pretty_print_transcript': ('transcription.html#pretty_print_transcript', 'genad/core.py'),
+                            'genad.core.transcribe_with_whisper_jax': ('transcription.html#transcribe_with_whisper_jax', 'genad/core.py'),
+                            'genad.core.transcribe_with_whisper_timestamped': ( 'transcription.html#transcribe_with_whisper_timestamped',
+                                                                                'genad/core.py')}}}
